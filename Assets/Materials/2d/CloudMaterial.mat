@@ -52,7 +52,7 @@ Material:
     m_Floats:
     - PlatformWidth: 2
     - _DisplacementHeight: 1
-    - _Height: 0.2
+    - _Height: 0
     - _PlatformWidth: 8
     m_Colors: []
   m_BuildTextureStacks: []
