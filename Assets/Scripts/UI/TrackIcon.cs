@@ -7,7 +7,7 @@ public class TrackIcon : MonoBehaviour {
     public GameObject target;
     public bool doAnimation;
     public Sprite starSprite;
-
+    public bool usingY;
     private float flashTimer;
     private PlayerController playerTarget;
     private Material mat;
@@ -54,11 +54,19 @@ public class TrackIcon : MonoBehaviour {
             image.enabled = true;
             changedSprite = true;
         }
-
+        //become spagerty and his failing computer science grade with line 59
         GameManager gm = GameManager.Instance;
+        if(usingY == false) {
         float levelWidth = gm.GetLevelMaxX() - gm.GetLevelMinX();
         float trackWidth = trackMaxX - trackMinX;
         float percentage = (target.transform.position.x - gm.GetLevelMinX()) / levelWidth;
         transform.localPosition = new(percentage * trackWidth - trackMaxX, transform.localPosition.y);
+        }
+        else {
+        float levelWidth = gm.GetLevelMaxY() - gm.GetLevelMinY();
+        float trackWidth = trackMaxX - trackMinX;
+        float percentage = (target.transform.position.y - gm.GetLevelMinY()) / levelWidth;
+        transform.localPosition = new(percentage * trackWidth - trackMaxX, transform.localPosition.y);
+        }
     }
 }

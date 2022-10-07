@@ -8146,6 +8146,11 @@ PrefabInstance:
       propertyPath: behaviours.Array.data[0]
       value: 
       objectReference: {fileID: 608797253}
+    - target: {fileID: 9096082496902365425, guid: c47ca8bcff624cc48bd8ce919f74072c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c47ca8bcff624cc48bd8ce919f74072c, type: 3}
@@ -8523,7 +8528,7 @@ PrefabInstance:
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: levelHeightTile
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -9233,6 +9238,11 @@ PrefabInstance:
       propertyPath: behaviours.Array.data[0]
       value: 
       objectReference: {fileID: 726935365}
+    - target: {fileID: 9096082496902365425, guid: c47ca8bcff624cc48bd8ce919f74072c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c47ca8bcff624cc48bd8ce919f74072c, type: 3}
@@ -9481,6 +9491,11 @@ PrefabInstance:
       propertyPath: behaviours.Array.data[0]
       value: 
       objectReference: {fileID: 1467694110}
+    - target: {fileID: 9096082496902365425, guid: c47ca8bcff624cc48bd8ce919f74072c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c47ca8bcff624cc48bd8ce919f74072c, type: 3}
@@ -9744,6 +9759,11 @@ PrefabInstance:
       propertyPath: behaviours.Array.data[0]
       value: 
       objectReference: {fileID: 1925685807}
+    - target: {fileID: 9096082496902365425, guid: c47ca8bcff624cc48bd8ce919f74072c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c47ca8bcff624cc48bd8ce919f74072c, type: 3}
@@ -10051,6 +10071,11 @@ PrefabInstance:
       propertyPath: behaviours.Array.data[0]
       value: 
       objectReference: {fileID: 1397757957}
+    - target: {fileID: 9096082496902365425, guid: c47ca8bcff624cc48bd8ce919f74072c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c47ca8bcff624cc48bd8ce919f74072c, type: 3}
@@ -10132,6 +10157,11 @@ PrefabInstance:
       propertyPath: behaviours.Array.data[0]
       value: 
       objectReference: {fileID: 2094649216}
+    - target: {fileID: 9096082496902365425, guid: c47ca8bcff624cc48bd8ce919f74072c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c47ca8bcff624cc48bd8ce919f74072c, type: 3}
@@ -10197,5 +10227,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd6e70ad40a93f419db4c4118455d7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: Prefabs/Enemy/RedKoopa
+  prefab: Prefabs/Enemy/BlueKoopa
   currentEntity: {fileID: 0}
